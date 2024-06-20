@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PTC2024.View.Dashboard;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,8 @@ namespace PTC2024
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Dashboard newDa = new Dashboard();
+            Application.Run(newDa);
         }
     }
 }
