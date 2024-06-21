@@ -36,7 +36,11 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.gunaTransfarantPictureBox2 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaTransfarantPictureBox4 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaTransfarantPictureBox3 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.pnlAsideMenu = new Bunifu.Framework.UI.BunifuGradientPanel();
@@ -49,24 +53,21 @@
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.imgH2Clogo = new Bunifu.Framework.UI.BunifuImageButton();
-            this.gunaTransfarantPictureBox3 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
-            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaTransfarantPictureBox4 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
-            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox3)).BeginInit();
             this.pnlAsideMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgH2Clogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -151,6 +152,31 @@
             this.panel3.Size = new System.Drawing.Size(142, 162);
             this.panel3.TabIndex = 14;
             // 
+            // gunaLabel4
+            // 
+            this.gunaLabel4.AutoSize = true;
+            this.gunaLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.gunaLabel4.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel4.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel4.Location = new System.Drawing.Point(33, 13);
+            this.gunaLabel4.Name = "gunaLabel4";
+            this.gunaLabel4.Size = new System.Drawing.Size(80, 25);
+            this.gunaLabel4.TabIndex = 4;
+            this.gunaLabel4.Text = "Clientes";
+            // 
+            // gunaTransfarantPictureBox4
+            // 
+            this.gunaTransfarantPictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTransfarantPictureBox4.BaseColor = System.Drawing.Color.Black;
+            this.gunaTransfarantPictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox4.Image")));
+            this.gunaTransfarantPictureBox4.Location = new System.Drawing.Point(0, 18);
+            this.gunaTransfarantPictureBox4.Name = "gunaTransfarantPictureBox4";
+            this.gunaTransfarantPictureBox4.Size = new System.Drawing.Size(142, 144);
+            this.gunaTransfarantPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.gunaTransfarantPictureBox4.TabIndex = 4;
+            this.gunaTransfarantPictureBox4.TabStop = false;
+            // 
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -161,6 +187,31 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(142, 162);
             this.panel4.TabIndex = 13;
+            // 
+            // gunaLabel3
+            // 
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.gunaLabel3.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel3.Location = new System.Drawing.Point(19, 18);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(111, 25);
+            this.gunaLabel3.TabIndex = 3;
+            this.gunaLabel3.Text = "Facturación";
+            // 
+            // gunaTransfarantPictureBox3
+            // 
+            this.gunaTransfarantPictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black;
+            this.gunaTransfarantPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox3.Image")));
+            this.gunaTransfarantPictureBox3.Location = new System.Drawing.Point(3, 18);
+            this.gunaTransfarantPictureBox3.Name = "gunaTransfarantPictureBox3";
+            this.gunaTransfarantPictureBox3.Size = new System.Drawing.Size(136, 141);
+            this.gunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.gunaTransfarantPictureBox3.TabIndex = 2;
+            this.gunaTransfarantPictureBox3.TabStop = false;
             // 
             // bunifuGradientPanel1
             // 
@@ -333,61 +384,19 @@
             this.imgH2Clogo.TabStop = false;
             this.imgH2Clogo.Zoom = 10;
             // 
-            // gunaTransfarantPictureBox3
+            // textBox1
             // 
-            this.gunaTransfarantPictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black;
-            this.gunaTransfarantPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox3.Image")));
-            this.gunaTransfarantPictureBox3.Location = new System.Drawing.Point(3, 18);
-            this.gunaTransfarantPictureBox3.Name = "gunaTransfarantPictureBox3";
-            this.gunaTransfarantPictureBox3.Size = new System.Drawing.Size(136, 141);
-            this.gunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.gunaTransfarantPictureBox3.TabIndex = 2;
-            this.gunaTransfarantPictureBox3.TabStop = false;
-            // 
-            // gunaLabel3
-            // 
-            this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.gunaLabel3.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel3.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel3.Location = new System.Drawing.Point(19, 18);
-            this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(111, 25);
-            this.gunaLabel3.TabIndex = 3;
-            this.gunaLabel3.Text = "Facturación";
-            // 
-            // gunaTransfarantPictureBox4
-            // 
-            this.gunaTransfarantPictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTransfarantPictureBox4.BaseColor = System.Drawing.Color.Black;
-            this.gunaTransfarantPictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox4.Image")));
-            this.gunaTransfarantPictureBox4.Location = new System.Drawing.Point(0, 18);
-            this.gunaTransfarantPictureBox4.Name = "gunaTransfarantPictureBox4";
-            this.gunaTransfarantPictureBox4.Size = new System.Drawing.Size(142, 144);
-            this.gunaTransfarantPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.gunaTransfarantPictureBox4.TabIndex = 4;
-            this.gunaTransfarantPictureBox4.TabStop = false;
-            // 
-            // gunaLabel4
-            // 
-            this.gunaLabel4.AutoSize = true;
-            this.gunaLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.gunaLabel4.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel4.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel4.Location = new System.Drawing.Point(33, 13);
-            this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(80, 25);
-            this.gunaLabel4.TabIndex = 4;
-            this.gunaLabel4.Text = "Clientes";
+            this.textBox1.Location = new System.Drawing.Point(368, 418);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 15;
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Controls.Add(this.panel4);
@@ -405,8 +414,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox3)).EndInit();
             this.pnlAsideMenu.ResumeLayout(false);
             this.pnlAsideMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
@@ -414,9 +425,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgH2Clogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox4)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -446,5 +456,6 @@
         private Guna.UI.WinForms.GunaTransfarantPictureBox gunaTransfarantPictureBox3;
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaTransfarantPictureBox gunaTransfarantPictureBox4;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
