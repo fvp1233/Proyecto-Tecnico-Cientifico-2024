@@ -179,13 +179,12 @@
             // 
             this.imgH2Clogo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.imgH2Clogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.imgH2Clogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.imgH2Clogo.ErrorImage = ((System.Drawing.Image)(resources.GetObject("imgH2Clogo.ErrorImage")));
             this.imgH2Clogo.Image = ((System.Drawing.Image)(resources.GetObject("imgH2Clogo.Image")));
             this.imgH2Clogo.ImageActive = null;
-            this.imgH2Clogo.Location = new System.Drawing.Point(0, 0);
+            this.imgH2Clogo.Location = new System.Drawing.Point(43, 13);
             this.imgH2Clogo.Name = "imgH2Clogo";
-            this.imgH2Clogo.Size = new System.Drawing.Size(169, 83);
+            this.imgH2Clogo.Size = new System.Drawing.Size(82, 83);
             this.imgH2Clogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgH2Clogo.TabIndex = 1;
             this.imgH2Clogo.TabStop = false;
