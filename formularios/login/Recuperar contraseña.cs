@@ -8,13 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PTC2024
+namespace PTC2024.formularios.login
 {
-    public partial class Form1 : Form
+    public partial class Recuperar_contraseña : Form
     {
-        public Form1()
+        public Recuperar_contraseña()
         {
             InitializeComponent();
         }
+
+       
     }
 }
