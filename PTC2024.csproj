@@ -57,30 +57,17 @@
     <Compile Include="formularios\login\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="formularios\login\Recuperar contraseña.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="formularios\login\Recuperar contraseña.cs" />
     <Compile Include="formularios\login\Recuperar contraseña.Designer.cs">
       <DependentUpon>Recuperar contraseña.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-    <Compile Include="View\Dashboard\Dashboard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Dashboard\Dashboard.Designer.cs">
-      <DependentUpon>Dashboard.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="FrmPrueba.resx">
-      <DependentUpon>FrmPrueba.cs</DependentUpon>
-=======
     <EmbeddedResource Include="formularios\login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formularios\login\Recuperar contraseña.resx">
       <DependentUpon>Recuperar contraseña.cs</DependentUpon>
->>>>>>> Fernando-Login
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,9 +78,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\Dashboard\Dashboard.resx">
-      <DependentUpon>Dashboard.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,10 +94,7 @@
   <ItemGroup>
     <Folder Include="Controller\" />
     <Folder Include="Model\" />
-<<<<<<< HEAD
-=======
     <Folder Include="View\" />
->>>>>>> Fernando-Login
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
