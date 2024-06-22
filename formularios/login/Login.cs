@@ -8,13 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PTC2024
+namespace PTC2024.formularios.login
 {
-    public partial class FrmPrueba : Form
+    public partial class Login : Form
     {
-        public FrmPrueba()
+        public Login()
         {
             InitializeComponent();
         }
+
+     
     }
 }
